@@ -1,0 +1,19 @@
+{
+    "name": "runner/native-seg-wit-address",
+    "description": "Produce a native segwit address from a 12-word seed",
+    "type": "project",
+    "require": {
+        "bitwasp/bitcoin": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Runner\\NativeSegWitAddress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isaack Njama",
+            "email": "munguiisaack@gmail.com"
+        }
+    ]
+}
